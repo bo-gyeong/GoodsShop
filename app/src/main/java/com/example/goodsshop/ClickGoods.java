@@ -289,7 +289,6 @@ public class ClickGoods extends Activity {
             }
         });  //찜버튼 이미지 변환 및 리얼타임 데베의 찜 카운팅 수 갱신
 
-        getShopName();
         chattingBtn = findViewById(R.id.chattingBtn);
 
         if (saleState.equals("reservation")){
@@ -336,11 +335,13 @@ public class ClickGoods extends Activity {
             userBtnView.setVisibility(View.GONE);
             nonUserBtnView.setVisibility(View.GONE);
             mineBtnView.setVisibility(View.VISIBLE);
+            getShopName();
         }
         else {  // 로그인 된 상태라면 userBtnView 띄우기
             userBtnView.setVisibility(View.VISIBLE);
             nonUserBtnView.setVisibility(View.GONE);
             mineBtnView.setVisibility(View.GONE);
+            getShopName();
         }
     }
 
