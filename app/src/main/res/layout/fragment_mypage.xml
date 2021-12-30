@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mypageCLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#ffffff"
+    tools:context=".Mypage">
+
+    <ProgressBar
+        android:id="@+id/myPageProgressBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints"
+        android:layout_marginTop="15dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:orientation="vertical"
+        android:paddingBottom="?attr/actionBarSize">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp">
+
+            <ImageView
+                android:id="@+id/personImgView"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/circle_gray"
+                android:src="@drawable/ic_baseline_person_24"/>
+
+            <TextView
+                android:id="@+id/shopNameTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" "
+                android:textSize="25sp"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginStart="15dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/profilebtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="내 프로필 보기"
+                android:textColor="#ffffff"
+                android:background="@drawable/colorprimary_round_btn"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp" />
+
+        </LinearLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/saleConstraintLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/change_color_click_transparent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toLeftOf="@+id/buyConstraintLayout">
+
+                <ImageView
+                    android:id="@+id/salebtn"
+                    android:layout_width="85dp"
+                    android:layout_height="85dp"
+                    android:padding="7dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ic_baseline_storefront_24"
+                    android:background="@drawable/circle_btn_light" />
+
+                <TextView
+                    android:id="@+id/saleTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="판매내역"
+                    android:textSize="21dp"
+                    app:layout_constraintTop_toBottomOf="@+id/salebtn"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"/>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/buyConstraintLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/change_color_click_transparent"
+                app:layout_constraintLeft_toRightOf="@id/saleConstraintLayout"
+                app:layout_constraintRight_toLeftOf="@+id/jjimConstraintLayout">
+
+                <ImageView
+                    android:id="@+id/buybtn"
+                    android:layout_width="85dp"
+                    android:layout_height="85dp"
+                    android:padding="12dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ic_baseline_shopping_cart_24"
+                    android:background="@drawable/circle_btn_light"
+                    android:layout_marginLeft="28dp"
+                    android:layout_marginRight="28dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="구매내역"
+                    android:textSize="21dp"
+                    app:layout_constraintTop_toBottomOf="@+id/buybtn"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"/>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/jjimConstraintLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/change_color_click_transparent"
+                app:layout_constraintLeft_toRightOf="@+id/buyConstraintLayout"
+                app:layout_constraintRight_toRightOf="parent">
+
+                <ImageView
+                    android:id="@+id/jjimbtn"
+                    android:layout_width="85dp"
+                    android:layout_height="85dp"
+                    android:padding="12dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ic_baseline_favorite_24"
+                    android:background="@drawable/circle_btn_light"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="찜한상품"
+                    android:textSize="21dp"
+                    app:layout_constraintTop_toBottomOf="@+id/jjimbtn"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"/>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5px"
+                android:background="#000000" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ListView
+                android:id="@+id/mypagelist"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

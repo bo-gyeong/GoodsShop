@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="10dp">
+
+    <ProgressBar
+        android:id="@+id/searchProgressBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <TextView
+        android:id="@+id/noGoodsTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/afterSearch_noGoodsTextView"
+        android:textSize="18sp"
+        android:visibility="gone"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/searchTopConstraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+
+        <ImageButton
+            android:id="@+id/backImgBtn"
+            android:layout_width="35dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="5dp"
+            android:src="@drawable/ic_baseline_keyboard_backspace_24"
+            android:scaleType="centerCrop"
+            android:adjustViewBounds="true"
+            android:tint="#ff999999"
+            android:background="@drawable/change_color_click_transparent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            tools:ignore="MissingConstraints,RtlCompat" />
+
+        <EditText
+            android:id="@+id/searchEditText"
+            android:layout_width="255dp"
+            android:layout_height="40dp"
+            android:paddingStart="10dp"
+            android:paddingLeft="10dp"
+            android:paddingEnd="10dp"
+            android:inputType="text"
+            android:textSize="21sp"
+            android:imeOptions="actionSearch"
+            android:background="@android:color/transparent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintLeft_toRightOf="@+id/backImgBtn"
+            app:layout_constraintRight_toLeftOf="@id/searchImgBtn"
+            tools:ignore="RtlSymmetry" />
+
+        <ImageButton
+            android:id="@+id/searchImgBtn"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:padding="3dp"
+            android:src="@drawable/ic_baseline_search_24"
+            android:scaleType="centerCrop"
+            android:adjustViewBounds="true"
+            android:tint="@color/colorPrimaryLight"
+            android:background="@drawable/change_color_click_transparent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintRight_toLeftOf="@+id/noticeImgBtn"
+            tools:ignore="MissingConstraints,RtlCompat" />
+
+        <ImageButton
+            android:id="@+id/noticeImgBtn"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:padding="3dp"
+            android:src="@drawable/ic_baseline_notifications_24"
+            android:scaleType="centerCrop"
+            android:adjustViewBounds="true"
+            android:tint="@color/colorPrimary"
+            android:background="@drawable/change_color_click_transparent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            tools:ignore="MissingConstraints,RtlCompat" />
+
+        <View
+            android:id="@+id/brView1"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/colorPrimary"
+            app:layout_constraintTop_toBottomOf="@id/searchEditText"
+            app:layout_constraintBottom_toBottomOf="parent"
+            tools:ignore="MissingConstraints" />
+
+<!--        <ImageButton-->
+<!--            android:id="@+id/backImgBtn"-->
+<!--            android:layout_width="35dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="3dp"-->
+<!--            android:layout_marginEnd="5dp"-->
+<!--            android:layout_marginRight="5dp"-->
+<!--            android:src="@drawable/ic_baseline_keyboard_backspace_24"-->
+<!--            android:scaleType="centerCrop"-->
+<!--            android:adjustViewBounds="true"-->
+<!--            android:tint="#ff999999"-->
+<!--            android:background="@android:color/transparent"-->
+<!--            app:layout_constraintTop_toTopOf="parent"-->
+<!--            app:layout_constraintRight_toLeftOf="@id/searchEditText"-->
+<!--            app:layout_constraintLeft_toLeftOf="parent"-->
+<!--            tools:ignore="MissingConstraints,RtlCompat" />-->
+
+<!--        <EditText-->
+<!--            android:id="@+id/searchEditText"-->
+<!--            android:layout_width="255dp"-->
+<!--            android:layout_height="40dp"-->
+<!--            android:paddingStart="10dp"-->
+<!--            android:paddingLeft="10dp"-->
+<!--            android:paddingEnd="10dp"-->
+<!--            android:inputType="text"-->
+<!--            android:imeOptions="actionSearch"-->
+<!--            android:background="@drawable/edittext_borer"-->
+<!--            app:layout_constraintTop_toTopOf="parent"-->
+<!--            app:layout_constraintLeft_toRightOf="@+id/backImgBtn"-->
+<!--            app:layout_constraintRight_toLeftOf="@id/searchImgBtn"-->
+<!--            tools:ignore="RtlSymmetry" />-->
+
+<!--        <ImageButton-->
+<!--            android:id="@+id/searchImgBtn"-->
+<!--            android:layout_width="40dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="5dp"-->
+<!--            android:layout_marginLeft="5dp"-->
+<!--            android:layout_marginEnd="5dp"-->
+<!--            android:padding="3dp"-->
+<!--            android:src="@drawable/ic_baseline_search_24"-->
+<!--            android:scaleType="centerCrop"-->
+<!--            android:adjustViewBounds="true"-->
+<!--            android:background="@drawable/colorprimary_round_btn"-->
+<!--            app:layout_constraintTop_toTopOf="parent"-->
+<!--            app:layout_constraintLeft_toRightOf="@id/searchEditText"-->
+<!--            app:layout_constraintRight_toLeftOf="@+id/noticeImgBtn"-->
+<!--            tools:ignore="MissingConstraints,RtlCompat" />-->
+
+<!--        <ImageButton-->
+<!--            android:id="@+id/noticeImgBtn"-->
+<!--            android:layout_width="40dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:padding="3dp"-->
+<!--            android:src="@drawable/ic_baseline_notifications_24"-->
+<!--            android:scaleType="centerCrop"-->
+<!--            android:adjustViewBounds="true"-->
+<!--            android:background="@drawable/colorprimary_round_btn"-->
+<!--            app:layout_constraintTop_toTopOf="parent"-->
+<!--            app:layout_constraintRight_toRightOf="parent"-->
+<!--            tools:ignore="MissingConstraints,RtlCompat" />-->
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/goodsCountTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text=""
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        app:layout_constraintTop_toBottomOf="@+id/searchTopConstraintLayout"
+        app:layout_constraintLeft_toLeftOf="parent"/>
+
+    <TextView
+        android:id="@+id/countUnitTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="21dp"
+        android:text="@string/afterSearch_countUnitTextView"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        app:layout_constraintTop_toBottomOf="@+id/searchTopConstraintLayout"
+        app:layout_constraintLeft_toRightOf="@id/goodsCountTextView"/>
+
+    <Spinner
+        android:id="@+id/sortSpinner"
+        android:layout_width="130dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/spinner_custom"
+        app:layout_constraintTop_toBottomOf="@+id/searchTopConstraintLayout"
+        app:layout_constraintRight_toLeftOf="@id/filterImgBtn"/>
+
+    <ImageButton
+        android:id="@+id/filterImgBtn"
+        android:layout_width="35dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/ic_baseline_filter_list_24"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:background="@drawable/filter_btn_border"
+        app:layout_constraintTop_toBottomOf="@+id/searchTopConstraintLayout"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <View
+        android:id="@+id/brView2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="10dp"
+        android:background="#CFCFCF"
+        app:layout_constraintTop_toBottomOf="@id/goodsCountTextView"
+        tools:ignore="MissingConstraints" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/showGoodsRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="90dp"
+        app:layout_constraintTop_toBottomOf="@+id/brView2"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginRight="3dp"
+        android:src="@drawable/ic_baseline_favorite_24"
+        app:maxImageSize="45dp"
+        app:fabCustomSize="70dp"
+        app:tint="#ffffff"
+        app:backgroundTint="@color/colorPrimary"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

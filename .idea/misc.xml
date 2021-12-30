@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/jjjjy/AndroidStudioProjects/GoodsShop/app/src/main/res/drawable/chatting_mine_shape.xml" value="0.1625" />
+        <entry key="..\:/Users/jjjjy/AndroidStudioProjects/GoodsShop/app/src/main/res/drawable/chatting_other_shape.xml" value="0.1625" />
+        <entry key="..\:/Users/jjjjy/AndroidStudioProjects/GoodsShop/app/src/main/res/drawable/circle_gray.xml" value="0.26564102564102565" />
+        <entry key="..\:/Users/jjjjy/AndroidStudioProjects/GoodsShop/app/src/main/res/drawable/colorprimary_light_round.xml" value="0.17447916666666666" />
+        <entry key="..\:/Users/jjjjy/AndroidStudioProjects/GoodsShop/app/src/main/res/drawable/colorprimary_round_btn.xml" value="0.17135416666666667" />
+        <entry key="..\:/Users/jjjjy/AndroidStudioProjects/GoodsShop/app/src/main/res/drawable/facebook_round_btn.xml" value="0.17135416666666667" />
+        <entry key="..\:/Users/jjjjy/AndroidStudioProjects/GoodsShop/app/src/main/res/drawable/filter_click_round_btn.xml" value="0.17447916666666666" />
+        <entry key="..\:/Users/jjjjy/AndroidStudioProjects/GoodsShop/app/src/main/res/drawable/google_round_btn.xml" value="0.17135416666666667" />
+        <entry key="..\:/Users/jjjjy/AndroidStudioProjects/GoodsShop/app/src/main/res/drawable/ic_baseline_favorite_border_24.xml" value="0.23981481481481481" />
+        <entry key="..\:/Users/jjjjy/AndroidStudioProjects/GoodsShop/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.1484375" />
+        <entry key="..\:/Users/jjjjy/AndroidStudioProjects/GoodsShop/app/src/main/res/drawable/ic_baseline_person_outline_24.xml" value="0.1484375" />
+        <entry key="..\:/Users/jjjjy/AndroidStudioProjects/GoodsShop/app/src/main/res/drawable/indicator_active.xml" value="0.15416666666666667" />
+        <entry key="..\:/Users/jjjjy/AndroidStudioProjects/GoodsShop/app/src/main/res/drawable/new_icon.xml" value="0.26564102564102565" />
+        <entry key="..\:/Users/jjjjy/AndroidStudioProjects/GoodsShop/app/src/main/res/drawable/non_click_round_btn.xml" value="0.1625" />
+        <entry key="..\:/Users/jjjjy/AndroidStudioProjects/GoodsShop/app/src/main/res/drawable/spinner_custom.xml" value="0.23981481481481481" />
+        <entry key="..\:/Users/jjjjy/AndroidStudioProjects/GoodsShop/app/src/main/res/drawable/twitter_round_btn.xml" value="0.17135416666666667" />
+        <entry key="..\:/Users/jjjjy/AndroidStudioProjects/GoodsShop/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/jjjjy/AndroidStudioProjects/GoodsShop/app/src/main/res/layout/after_search.xml" value="0.264" />
+        <entry key="..\:/Users/jjjjy/AndroidStudioProjects/GoodsShop/app/src/main/res/layout/change_my_info.xml" value="0.2" />
+        <entry key="..\:/Users/jjjjy/AndroidStudioProjects/GoodsShop/app/src/main/res/layout/chattimg_room_date_line.xml" value="0.4" />
+        <entry key="..\:/Users/jjjjy/AndroidStudioProjects/GoodsShop/app/src/main/res/layout/chatting_mine.xml" value="0.4" />
+        <entry key="..\:/Users/jjjjy/AndroidStudioProjects/GoodsShop/app/src/main/res/layout/chatting_other.xml" value="0.4" />
+        <entry key="..\:/Users/jjjjy/AndroidStudioProjects/GoodsShop/app/src/main/res/layout/chatting_room.xml" value="0.2" />
+        <entry key="..\:/Users/jjjjy/AndroidStudioProjects/GoodsShop/app/src/main/res/layout/click_goods.xml" value="0.2" />
+        <entry key="..\:/Users/jjjjy/AndroidStudioProjects/GoodsShop/app/src/main/res/layout/click_goods_detail.xml" value="0.13802083333333334" />
+        <entry key="..\:/Users/jjjjy/AndroidStudioProjects/GoodsShop/app/src/main/res/layout/click_goods_detail_img_slider.xml" value="0.12335359675785208" />
+        <entry key="..\:/Users/jjjjy/AndroidStudioProjects/GoodsShop/app/src/main/res/layout/click_goods_img_slider.xml" value="0.12335359675785208" />
+        <entry key="..\:/Users/jjjjy/AndroidStudioProjects/GoodsShop/app/src/main/res/layout/find_password.xml" value="0.12335359675785208" />
+        <entry key="..\:/Users/jjjjy/AndroidStudioProjects/GoodsShop/app/src/main/res/layout/fragment_category.xml" value="0.1" />
+        <entry key="..\:/Users/jjjjy/AndroidStudioProjects/GoodsShop/app/src/main/res/layout/fragment_chatting.xml" value="0.264" />
+        <entry key="..\:/Users/jjjjy/AndroidStudioProjects/GoodsShop/app/src/main/res/layout/fragment_home.xml" value="0.176" />
+        <entry key="..\:/Users/jjjjy/AndroidStudioProjects/GoodsShop/app/src/main/res/layout/fragment_mypage.xml" value="0.264" />
+        <entry key="..\:/Users/jjjjy/AndroidStudioProjects/GoodsShop/app/src/main/res/layout/fragment_mypage_login.xml" value="0.2" />
+        <entry key="..\:/Users/jjjjy/AndroidStudioProjects/GoodsShop/app/src/main/res/layout/fragment_registration.xml" value="0.176" />
+        <entry key="..\:/Users/jjjjy/AndroidStudioProjects/GoodsShop/app/src/main/res/layout/item_message.xml" value="0.20425724637681159" />
+        <entry key="..\:/Users/jjjjy/AndroidStudioProjects/GoodsShop/app/src/main/res/layout/jjim.xml" value="0.1082427536231884" />
+        <entry key="..\:/Users/jjjjy/AndroidStudioProjects/GoodsShop/app/src/main/res/layout/join.xml" value="0.2" />
+        <entry key="..\:/Users/jjjjy/AndroidStudioProjects/GoodsShop/app/src/main/res/layout/join_only_shop.xml" value="0.176" />
+        <entry key="..\:/Users/jjjjy/AndroidStudioProjects/GoodsShop/app/src/main/res/layout/notification.xml" value="0.1" />
+        <entry key="..\:/Users/jjjjy/AndroidStudioProjects/GoodsShop/app/src/main/res/layout/review_detail.xml" value="0.2" />
+        <entry key="..\:/Users/jjjjy/AndroidStudioProjects/GoodsShop/app/src/main/res/layout/reviews.xml" value="0.1" />
+        <entry key="..\:/Users/jjjjy/AndroidStudioProjects/GoodsShop/app/src/main/res/layout/reviews_listview.xml" value="0.12335359675785208" />
+        <entry key="..\:/Users/jjjjy/AndroidStudioProjects/GoodsShop/app/src/main/res/layout/sales.xml" value="0.264" />
+        <entry key="..\:/Users/jjjjy/AndroidStudioProjects/GoodsShop/app/src/main/res/layout/see_other_shop.xml" value="0.2" />
+        <entry key="..\:/Users/jjjjy/AndroidStudioProjects/GoodsShop/app/src/main/res/layout/seereview.xml" value="0.264" />
+        <entry key="..\:/Users/jjjjy/AndroidStudioProjects/GoodsShop/app/src/main/res/layout/set_notification.xml" value="0.264" />
+        <entry key="..\:/Users/jjjjy/AndroidStudioProjects/GoodsShop/app/src/main/res/layout/set_profile.xml" value="0.13229166666666667" />
+        <entry key="..\:/Users/jjjjy/AndroidStudioProjects/GoodsShop/app/src/main/res/layout/show_chatting_list.xml" value="0.264" />
+        <entry key="..\:/Users/jjjjy/AndroidStudioProjects/GoodsShop/app/src/main/res/layout/show_jjim_goods.xml" value="0.12335359675785208" />
+        <entry key="..\:/Users/jjjjy/AndroidStudioProjects/GoodsShop/app/src/main/res/layout/show_mypage_sale_list.xml" value="0.12335359675785208" />
+        <entry key="..\:/Users/jjjjy/AndroidStudioProjects/GoodsShop/app/src/main/res/layout/show_notification.xml" value="0.264" />
+        <entry key="..\:/Users/jjjjy/AndroidStudioProjects/GoodsShop/app/src/main/res/layout/show_other_sale_list.xml" value="0.264" />
+        <entry key="..\:/Users/jjjjy/AndroidStudioProjects/GoodsShop/app/src/main/res/layout/show_purchase.xml" value="0.1" />
+        <entry key="..\:/Users/jjjjy/AndroidStudioProjects/GoodsShop/app/src/main/res/layout/show_search_goods.xml" value="0.11594202898550725" />
+        <entry key="..\:/Users/jjjjy/AndroidStudioProjects/GoodsShop/app/src/main/res/layout/splash.xml" value="0.16799999999999998" />
+        <entry key="..\:/Users/jjjjy/AndroidStudioProjects/GoodsShop/app/src/main/res/layout/write_review.xml" value="0.2" />
+        <entry key="..\:/Users/jjjjy/AndroidStudioProjects/GoodsShop/app/src/main/res/menu/actionbar_registration.xml" value="0.13333333333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8 (2)" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

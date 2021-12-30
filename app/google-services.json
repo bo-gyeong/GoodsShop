@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "976202500227",
+    "project_id": "goodsshop-105b5",
+    "storage_bucket": "goodsshop-105b5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:976202500227:android:e6c0a9478fd27f22c1b3b6",
+        "android_client_info": {
+          "package_name": "com.example.goodsshop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "976202500227-8sip97lhh782mio8rb1krol96gcdjlj1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.goodsshop",
+            "certificate_hash": "267c9a02f70ef231d2645696cbc04dad487ba796"
+          }
+        },
+        {
+          "client_id": "976202500227-phjbtn9e61t4tsgboc4q883f22he45lu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.goodsshop",
+            "certificate_hash": "f8b56bbaf39cb542ad24772b0da0bd09cd6251f7"
+          }
+        },
+        {
+          "client_id": "976202500227-uv2oc1982rlvuv5dk7jcrm12ustobnhg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.goodsshop",
+            "certificate_hash": "65294dbdbb5b183929dd3fcf8d4c007cf4719359"
+          }
+        },
+        {
+          "client_id": "976202500227-tb9r995i67i28akme9gdqo96b7d03bb1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4zEvWTkV9gB2uODsOdV4l8VYnhrS_CHU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "976202500227-tb9r995i67i28akme9gdqo96b7d03bb1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

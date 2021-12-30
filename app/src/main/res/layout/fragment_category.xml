@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="25dp"
+    android:paddingBottom="?attr/actionBarSize"
+    tools:context=".Category">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:ignore="MissingConstraints">
+
+            <TextView
+                android:id="@+id/categoryMainTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="@string/fCategory_categoryTextView"
+                android:textSize="20sp"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:background="@color/colorPrimary"
+                android:stretchColumns="*"
+                tools:ignore="MissingConstraints">
+
+                <TableRow>
+
+                    <TextView
+                        android:id="@+id/album"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2dp"
+                        android:layout_weight="1"
+                        android:padding="15dp"
+                        android:gravity="center"
+                        android:text="@string/fCategory_album"
+                        android:textSize="20sp"
+                        android:textColor="#000000"
+                        android:background="@drawable/change_color_click_white" />
+
+                    <TextView
+                        android:id="@+id/photocard"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2dp"
+                        android:layout_weight="1"
+                        android:padding="15dp"
+                        android:gravity="center"
+                        android:text="@string/fCategory_photocard"
+                        android:textSize="20sp"
+                        android:textColor="#000000"
+                        android:background="@drawable/change_color_click_white" />
+
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:id="@+id/collectbook"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2dp"
+                        android:layout_weight="1"
+                        android:padding="15dp"
+                        android:gravity="center"
+                        android:text="@string/fCategory_collectbook"
+                        android:textSize="20sp"
+                        android:textColor="#000000"
+                        android:background="@drawable/change_color_click_white" />
+
+                    <TextView
+                        android:id="@+id/sticker"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2dp"
+                        android:layout_weight="1"
+                        android:padding="15dp"
+                        android:gravity="center"
+                        android:text="@string/fCategory_sticker"
+                        android:textSize="20sp"
+                        android:textColor="#000000"
+                        android:background="@drawable/change_color_click_white" />
+
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:id="@+id/doll"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2dp"
+                        android:layout_weight="1"
+                        android:padding="15dp"
+                        android:gravity="center"
+                        android:text="@string/fCategory_doll"
+                        android:textSize="20sp"
+                        android:textColor="#000000"
+                        android:background="@drawable/change_color_click_white" />
+
+                    <TextView
+                        android:id="@+id/gtok"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2dp"
+                        android:layout_weight="1"
+                        android:padding="15dp"
+                        android:gravity="center"
+                        android:text="@string/fCategory_gtok"
+                        android:textSize="20sp"
+                        android:textColor="#000000"
+                        android:background="@drawable/change_color_click_white" />
+
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:id="@+id/cheerstick"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2dp"
+                        android:layout_weight="1"
+                        android:padding="15dp"
+                        android:gravity="center"
+                        android:text="@string/fCategory_cheerstick"
+                        android:textSize="20sp"
+                        android:textColor="#000000"
+                        android:background="@drawable/change_color_click_white" />
+
+                    <TextView
+                        android:id="@+id/slogan"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2dp"
+                        android:layout_weight="1"
+                        android:padding="15dp"
+                        android:gravity="center"
+                        android:text="@string/fCategory_slogan"
+                        android:textSize="20sp"
+                        android:textColor="#000000"
+                        android:background="@drawable/change_color_click_white" />
+
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:id="@+id/badge"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2dp"
+                        android:layout_weight="1"
+                        android:padding="15dp"
+                        android:gravity="center"
+                        android:text="@string/fCategory_badge"
+                        android:textSize="20sp"
+                        android:textColor="#000000"
+                        android:background="@drawable/change_color_click_white" />
+
+                    <TextView
+                        android:id="@+id/postcard"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2dp"
+                        android:layout_weight="1"
+                        android:padding="15dp"
+                        android:gravity="center"
+                        android:text="@string/fCategory_postcard"
+                        android:textSize="20sp"
+                        android:textColor="#000000"
+                        android:background="@drawable/change_color_click_white" />
+
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:id="@+id/keyring"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2dp"
+                        android:layout_weight="1"
+                        android:padding="15dp"
+                        android:gravity="center"
+                        android:text="@string/fCategory_keyring"
+                        android:textSize="20sp"
+                        android:textColor="#000000"
+                        android:background="@drawable/change_color_click_white" />
+
+                    <TextView
+                        android:id="@+id/bag"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2dp"
+                        android:layout_weight="1"
+                        android:padding="15dp"
+                        android:gravity="center"
+                        android:text="@string/fCategory_bag"
+                        android:textSize="20sp"
+                        android:textColor="#000000"
+                        android:background="@drawable/change_color_click_white" />
+
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:id="@+id/buchae"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2dp"
+                        android:layout_weight="1"
+                        android:padding="15dp"
+                        android:gravity="center"
+                        android:text="@string/fCategory_buchae"
+                        android:textSize="20sp"
+                        android:textColor="#000000"
+                        android:background="@drawable/change_color_click_white" />
+
+                    <TextView
+                        android:id="@+id/birthday"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2dp"
+                        android:layout_weight="1"
+                        android:padding="15dp"
+                        android:gravity="center"
+                        android:text="@string/fCategory_birthday"
+                        android:textSize="20sp"
+                        android:textColor="#000000"
+                        android:background="@drawable/change_color_click_white" />
+
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:id="@+id/acc"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2dp"
+                        android:layout_weight="1"
+                        android:padding="15dp"
+                        android:gravity="center"
+                        android:text="@string/fCategory_acc"
+                        android:textSize="20sp"
+                        android:textColor="#000000"
+                        android:background="@drawable/change_color_click_white" />
+
+                    <TextView
+                        android:id="@+id/shirts"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2dp"
+                        android:layout_weight="1"
+                        android:padding="15dp"
+                        android:gravity="center"
+                        android:text="@string/fCategory_shirts"
+                        android:textSize="20sp"
+                        android:textColor="#000000"
+                        android:background="@drawable/change_color_click_white" />
+
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:id="@+id/shoes"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2dp"
+                        android:layout_weight="1"
+                        android:padding="15dp"
+                        android:gravity="center"
+                        android:text="@string/fCategory_shoes"
+                        android:textSize="20sp"
+                        android:textColor="#000000"
+                        android:background="@drawable/change_color_click_white" />
+
+                    <TextView
+                        android:id="@+id/tumbler"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2dp"
+                        android:layout_weight="1"
+                        android:padding="15dp"
+                        android:gravity="center"
+                        android:text="@string/fCategory_tumbler"
+                        android:textSize="20sp"
+                        android:textColor="#000000"
+                        android:background="@drawable/change_color_click_white" />
+
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:id="@+id/etcOfficialgoods"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2dp"
+                        android:layout_weight="1"
+                        android:padding="15dp"
+                        android:gravity="center"
+                        android:text="@string/fCategory_etc_officialgoods"
+                        android:textSize="20sp"
+                        android:textColor="#000000"
+                        android:background="@drawable/change_color_click_white" />
+
+                    <TextView
+                        android:id="@+id/etcNonOfficialgoods"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2dp"
+                        android:layout_weight="1"
+                        android:padding="15dp"
+                        android:gravity="center"
+                        android:text="@string/fCategory_etc_nonofficialgoods"
+                        android:textSize="20sp"
+                        android:textColor="#000000"
+                        android:background="@drawable/change_color_click_white" />
+
+                </TableRow>
+
+            </TableLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>

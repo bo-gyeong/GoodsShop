@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/content"
+    android:orientation="vertical">
+
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/filterImgView"
+            android:layout_width="18dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginRight="3dp"
+            android:src="@drawable/ic_baseline_filter_list_24"
+            app:tint="#000000"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintRight_toLeftOf="@+id/filterTextView"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/filterTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:text="@string/filter_filterTextView"
+            android:textSize="15sp"
+            android:textColor="#000000"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/priceSettingsTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/filter_priceSettingsTextView"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/filterImgView"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/minPriceEditText"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:padding="5dp"
+        android:hint="@string/filter_minPriceEditText"
+        android:inputType="number"
+        android:background="@drawable/edittext_border_gray"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/priceSettingsTextView"
+        app:layout_constraintRight_toLeftOf="@id/swungDashTextView"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/swungDashTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/filter_swungDashTextView"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/priceSettingsTextView"
+        app:layout_constraintLeft_toRightOf="@+id/minPriceEditText"
+        app:layout_constraintRight_toLeftOf="@id/maxPriceEditText"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/maxPriceEditText"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:padding="5dp"
+        android:hint="@string/filter_maxPriceEditText"
+        android:inputType="number"
+        android:background="@drawable/edittext_border_gray"
+        app:layout_constraintLeft_toRightOf="@id/swungDashTextView"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/priceSettingsTextView"
+        tools:ignore="MissingConstraints" />
+
+    <View
+        android:id="@+id/brView1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="30dp"
+        android:background="#808080"
+        app:layout_constraintTop_toBottomOf="@+id/minPriceEditText"
+        app:layout_constraintBottom_toTopOf="@id/deliveryTextView"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/deliveryTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/filter_deliveryTextView"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/brView1"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/postBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/filter_postBtn"
+        android:background="@drawable/non_click_round_btn"
+        app:layout_constraintTop_toBottomOf="@+id/deliveryTextView"
+        app:layout_constraintRight_toLeftOf="@+id/parcelBtn"
+        app:layout_constraintLeft_toLeftOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/parcelBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/filter_parcelBtn"
+        android:background="@drawable/non_click_round_btn"
+        app:layout_constraintTop_toBottomOf="@+id/deliveryTextView"
+        app:layout_constraintLeft_toRightOf="@+id/postBtn"
+        app:layout_constraintRight_toLeftOf="@id/directDealingBtn"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/directDealingBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/filter_directDealingBtn"
+        android:background="@drawable/non_click_round_btn"
+        app:layout_constraintTop_toBottomOf="@+id/deliveryTextView"
+        app:layout_constraintLeft_toRightOf="@id/parcelBtn"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <View
+        android:id="@+id/brView2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="30dp"
+        android:background="#808080"
+        app:layout_constraintTop_toBottomOf="@+id/postBtn"
+        app:layout_constraintBottom_toTopOf="@id/conditionTextView"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/conditionTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/filter_conditionTextView"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/brView2"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/highBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/filter_highBtn"
+        android:background="@drawable/non_click_round_btn"
+        app:layout_constraintTop_toBottomOf="@+id/conditionTextView"
+        app:layout_constraintRight_toLeftOf="@id/midBtn"
+        app:layout_constraintLeft_toLeftOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/midBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/filter_midBtn"
+        android:background="@drawable/non_click_round_btn"
+        app:layout_constraintTop_toBottomOf="@+id/conditionTextView"
+        app:layout_constraintLeft_toRightOf="@+id/highBtn"
+        app:layout_constraintRight_toLeftOf="@id/lowBtn"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/lowBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/filter_lowBtn"
+        android:background="@drawable/non_click_round_btn"
+        app:layout_constraintTop_toBottomOf="@+id/conditionTextView"
+        app:layout_constraintLeft_toRightOf="@+id/midBtn"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:ignore="MissingConstraints" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:id="@+id/clickGoodsBtnView"
+        tools:ignore="MissingConstraints" app:layout_constraintBottom_toBottomOf="parent"
+        android:paddingTop="40dp">
+        <TextView
+            android:id="@+id/initialBtn"
+            android:layout_width="0dp"
+            android:layout_height="49.5dp"
+            android:text="@string/filter_initialBtn"
+            android:textSize="23sp"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            app:layout_constraintRight_toLeftOf="@+id/applyBtn"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintHorizontal_weight="1"
+            android:background="@color/colorPrimaryLight"/>
+
+        <TextView
+            android:id="@+id/applyBtn"
+            android:layout_width="0dp"
+            android:layout_height="49.5dp"
+            android:text="@string/filter_applyBtn"
+            android:textSize="23sp"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:background="@color/colorPrimary"
+            app:layout_constraintLeft_toRightOf="@+id/initialBtn"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintHorizontal_weight="1"
+            tools:ignore="RtlCompat" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>

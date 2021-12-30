@@ -1,0 +1,175 @@
+<resources>
+    <!-- 트위터 연동 -->
+    <string name="twitter_consumer_key" translatable="false">1lFMaHIWKO4NuU2dmC1jfKQA8</string>
+    <string name="twitter_consumer_secret" translatable="false">RPAZyifVZPKvR5TQfF7gLtrvshS0XH5mSkB8Sv4EM57VcjxiHY</string>
+    <!-- 페이스북 연동 -->
+    <string name="facebook_application_id">157519363183762</string>
+    <string name="facebook_login_protocol_scheme">fb157519363183762</string>
+
+
+    <!-- 하단바 이름 -->
+    <string name="app_name">굿즈#</string>
+    <string name="title_registration">상품등록</string>
+    <string name="title_category">카테고리</string>
+    <string name="title_home">홈</string>
+    <string name="title_chatting">채팅</string>
+    <string name="title_mypage">나의샵</string>
+    <string name="title_mypage_login">나의샵 로그인</string>
+
+    <!-- actionbar_registration(액션바) -->
+    <string name="actionBar_completeBtn">완료</string>
+
+    <!-- 상품등록 페이지 -->
+    <string name="registration_fragment">상품등록페이지</string>
+    <string name="fRegistration_picCountTextView">0</string>
+    <string name="fRegistration_picNumTextView">/10</string>
+    <string name="fRegistration_goodsNameEditText">상품명</string>
+    <string name="fRegistration_categoryTextView">카테고리</string>
+    <string name="fRegistration_priceEditText">가격</string>
+    <string name="fRegistration_priceWonTextView">&#65510;</string>
+    <string name="fRegistration_explanationEditText">상품에 대한 설명을 작성해주세요.</string>
+
+    <!-- 카테고리 페이지 -->
+    <string name="category_fragment">카테고리페이지</string>
+    <string name="fCategory_categoryTextView"><u>상품 카테고리</u></string>
+    <string name="fCategory_album">앨범</string>
+    <string name="fCategory_photocard">포토카드</string>
+    <string name="fCategory_collectbook">콜렉트북</string>
+    <string name="fCategory_sticker">스티커</string>
+    <string name="fCategory_doll">인형</string>
+    <string name="fCategory_gtok">그립톡</string>
+    <string name="fCategory_cheerstick">응원봉</string>
+    <string name="fCategory_slogan">슬로건</string>
+    <string name="fCategory_badge">뱃지</string>
+    <string name="fCategory_postcard">엽서</string>
+    <string name="fCategory_keyring">키링</string>
+    <string name="fCategory_bag">가방</string>
+    <string name="fCategory_buchae">부채</string>
+    <string name="fCategory_acc">액세서리</string>
+    <string name="fCategory_shirts">옷</string>
+    <string name="fCategory_shoes">신발</string>
+    <string name="fCategory_tumbler">텀블러</string>
+    <string name="fCategory_birthday">생일카페</string>
+    <string name="fCategory_etc_officialgoods">기타 공식굿즈</string>
+    <string name="fCategory_etc_nonofficialgoods">기타 비공식굿즈</string>
+
+    <!-- 홈 페이지 -->
+    <string name="fragmentHome_titleTextView">굿즈#</string>
+    <string name="fragmentHome_searchEditText">검색할 상품을 입력하세요.</string>
+    <!-- 채팅 페이지 -->
+    <string name="chatting_fragment">채팅 페이지</string>
+    <!-- 나의샵 페이지 -->
+    <string name="mypage_fragment">나의 샵 페이지</string>
+
+    <!-- join 페이지(회원가입) -->
+    <string name="join_nicknameEditText">샵 이름 입력</string>
+    <string name="join_pNumEditText">핸드폰번호 입력</string>
+    <string name="join_sendVerifCodeBtn">인증번호 전송</string>
+    <string name="join_VerifCodeEditText">인증번호 입력</string>
+    <string name="join_pwEditText">비밀번호 입력</string>
+    <string name="join_pwAgainEditText">비밀번호 확인</string>
+    <string name="join_joinBtn">회원가입</string>
+    <string name="joinOnlyShop_CompleteBtn">완료</string>
+
+    <!-- find_password 페이지(비밀번호 찾기) -->
+    <string name="findPw_pNumEditText">핸드폰번호 입력</string>
+    <string name="findPw_sendVerifCodeBtn">인증번호 전송</string>
+    <string name="findPw_VerifCodeEditText">인증번호 입력</string>
+    <string name="findPw_pwEditText">새로운 비밀번호 입력 (10자 이내)</string>
+    <string name="findPw_pwAgainEditText">비밀번호 확인</string>
+    <string name="findPw_changePwBtn">비밀번호 변경</string>
+
+    <!-- 로그인 페이지 -->
+    <string name="login_loginTextView">로그인</string>
+    <string name="login_loginEmailBtn">이메일로 로그인</string>
+    <string name="login_loginGoogleBtn">구글로 로그인</string>
+    <string name="login_loginTwitterBtn">트위터로 로그인</string>
+    <string name="login_loginFacebookBtn">페이스북으로 로그인</string>
+    <string name="login_joinTextView"><u>회원가입(E-mail)</u></string>
+
+    <!-- click_goods 페이지(상품클릭 후) -->
+    <string name="clickGoods_priceWonTextView">원</string>
+    <string name="clickGoods_postTextView">우편</string>
+    <string name="clickGoods_parcelTextView">택배</string>
+    <string name="clickGoods_directDealingTextView">직거래</string>
+    <string name="clickGoods_barTextView">&#160;|&#160;</string>
+    <string name="clickGoods_postscriptTextView">샵 후기</string>
+    <string name="clickGoods_postscriptMoreTextView"><u>더보기</u></string>
+    <string name="clickGoods_chattingBtn">채팅하기</string>
+    <string name="clickGoods_nonChattingBtn">채팅은 로그인 후 이용 가능합니다</string>
+    <string name="clickGoods_goToSalesBtn">내 판매내역으로 이동</string>
+
+    <!-- write_review 페이지(리뷰작성) -->
+    <string name="writeReview_evaluateTextView">거래는 어땠나요?</string>
+    <string name="writeReview_evaluateEditText">150자 이내로 작성해주세요.</string>
+    <string name="writeReview_addPicTextView">사진추가</string>
+    <string name="writeReview_evaluateBtn">후기 등록</string>
+
+    <!-- review_detail 페이지(상세 후기) -->
+    <string name="reviewDetail_rBarNameTextView">평점</string>
+
+    <!-- change_my_info 페이지(내 정보 변경) -->
+    <string name="changeMyInfo_nickNameTextView">샵 이름 변경</string>
+    <string name="changeMyInfo_pNumTextView">핸드폰번호 변경</string>
+    <string name="changeMyInfo_pNumEditText">새로운 번호입력 (- 제외)</string>
+    <string name="changeMyInfo_verifCodeEditText">인증번호 입력</string>
+    <string name="changeMyInfo_sendVerifCodeBtn">인증번호 전송</string>
+    <string name="changeMyInfo_verifCodeBtn">인증번호 확인</string>
+    <string name="changeMyInfo_pwEditText">새로운 비밀번호 (10자 이내)</string>
+    <string name="changeMyInfo_pwAgainEditText">비밀번호 확인</string>
+    <string name="changeMyInfo_pwTextView">비밀번호 변경</string>
+    <string name="changeMyInfo_changeBtn">변경하기</string>
+
+    <!-- after_search 페이지(검색 후) -->
+    <string name="afterSearch_noGoodsTextView">등록된 상품이 없습니다</string>
+    <string name="afterSearch_countUnitTextView">개</string>
+    <string name="afterSearch_priceWonTextView">원</string>
+
+    <!-- filter 페이지 -->
+    <string name="filter_filterTextView">필터</string>
+    <string name="filter_priceSettingsTextView">가격설정</string>
+    <string name="filter_minPriceEditText">0</string>
+    <string name="filter_swungDashTextView">~</string>
+    <string name="filter_maxPriceEditText">최대</string>
+    <string name="filter_deliveryTextView">배송방법</string>
+    <string name="filter_postBtn">우편</string>
+    <string name="filter_parcelBtn">택배</string>
+    <string name="filter_directDealingBtn">직거래</string>
+    <string name="filter_conditionTextView">제품상태</string>
+    <string name="filter_highBtn">상</string>
+    <string name="filter_midBtn">중</string>
+    <string name="filter_lowBtn">하</string>
+    <string name="filter_initialBtn">초기화</string>
+    <string name="filter_applyBtn">필터적용</string>
+
+    <!-- setNotification 페이지 -->
+    <string name="setNotification_notifSwitch">알림 표시</string>
+
+    <!-- showChattingList 페이지 -->
+    <string name="showChattingList_newChattingTextView">N</string>
+
+    <!-- jjim 페이지 -->
+    <string name="jjim_noJjimTextView">찜한 상품이 없습니다</string>
+
+    <!-- sales 페이지 -->
+    <string name="sales_noExistTextView">상품이 없습니다</string>
+
+    <!-- showSaleList 페이지 -->
+    <string name="showSaleList_reservation"> 예약중</string>
+    <string name="showSaleList_salesCompleted">판매완료</string>
+
+    <!-- seeOtherShop 페이지 -->
+    <string name="seeOtherShop_viewallsalelist">판매 내역 모두 보기</string>
+    <string name="seeOtherShop_numreview">판매한 상품 후기</string>
+    <string name="seeOtherShop_numreviewCnt">개</string>
+
+    <!-- showNotification 페이지 -->
+    <string name="showNotification_reviewNotiTextView">후기를 작성해주세요</string>
+    <string name="showNotification_afterShopNameTextView">님과의\t</string>
+    <string name="showNotification_afterGoodsNameTextView">거래는 어떠셨나요?</string>
+
+    <!-- splash 페이지 -->
+    <string name="splash_goodsTextView">굿즈</string>
+    <string name="splash_shopTextView">#</string>
+
+</resources>

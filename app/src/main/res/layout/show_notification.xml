@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20sp">
+
+        <TextView
+            android:id="@+id/reviewNotiTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/showNotification_reviewNotiTextView"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"/>
+
+        <TextView
+            android:id="@+id/shopNameNotiTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            app:layout_constraintTop_toBottomOf="@+id/reviewNotiTextView"
+            app:layout_constraintLeft_toLeftOf="parent"/>
+
+        <TextView
+            android:id="@+id/afterShopNameTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/showNotification_afterShopNameTextView"
+            android:layout_marginStart="3dp"
+            android:layout_marginLeft="3dp"
+            app:layout_constraintTop_toBottomOf="@+id/reviewNotiTextView"
+            app:layout_constraintLeft_toRightOf="@+id/shopNameNotiTextView"/>
+
+        <TextView
+            android:id="@+id/goodsNameNotiTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimaryLight"
+            app:layout_constraintTop_toBottomOf="@+id/reviewNotiTextView"
+            app:layout_constraintLeft_toRightOf="@+id/afterShopNameTextView"/>
+
+        <TextView
+            android:id="@+id/afterGoodsNameTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/showNotification_afterGoodsNameTextView"
+            android:layout_marginStart="4dp"
+            android:layout_marginLeft="4dp"
+            app:layout_constraintTop_toBottomOf="@+id/reviewNotiTextView"
+            app:layout_constraintLeft_toRightOf="@+id/goodsNameNotiTextView"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/joinOnlyShopCLayout"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="28dp"
+    tools:context=".SetProfile">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/setProfileImg"
+        android:layout_width="105dp"
+        android:layout_height="103dp"
+        android:layout_marginTop="17dp"
+        tools:ignore="MissingConstraints"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/personImgView"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/circle_gray"
+            android:src="@drawable/ic_baseline_person_24"/>
+
+        <ImageView
+            android:id="@+id/camImgView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:background="@drawable/circle_darkgray"
+            android:src="@drawable/ic_baseline_camera_alt_24"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <EditText
+        android:id="@+id/nicknameEditText"
+        android:layout_width="215dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:hint="@string/join_nicknameEditText"
+        android:maxLength="10"
+        android:background="@drawable/edittext_border_gray"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/completeBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="@string/joinOnlyShop_CompleteBtn"
+        android:textColor="#ffffff"
+        android:background="@drawable/colorprimary_round_btn"
+        app:layout_constraintTop_toBottomOf="@+id/setProfileImg"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
