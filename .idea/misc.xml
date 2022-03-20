@@ -3,6 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/jjjjy/AndroidStudioProjects/GoodsShop/app/src/main/res/drawable/bottom_nav_menu_color.xml" value="0.22407407407407406" />
+        <entry key="..\:/Users/jjjjy/AndroidStudioProjects/GoodsShop/app/src/main/res/drawable/change_color_click_transparent.xml" value="0.22962962962962963" />
+        <entry key="..\:/Users/jjjjy/AndroidStudioProjects/GoodsShop/app/src/main/res/drawable/change_color_click_white.xml" value="0.22407407407407406" />
         <entry key="..\:/Users/jjjjy/AndroidStudioProjects/GoodsShop/app/src/main/res/drawable/chatting_mine_shape.xml" value="0.1625" />
         <entry key="..\:/Users/jjjjy/AndroidStudioProjects/GoodsShop/app/src/main/res/drawable/chatting_other_shape.xml" value="0.1625" />
         <entry key="..\:/Users/jjjjy/AndroidStudioProjects/GoodsShop/app/src/main/res/drawable/circle_gray.xml" value="0.26564102564102565" />
@@ -30,7 +33,8 @@
         <entry key="..\:/Users/jjjjy/AndroidStudioProjects/GoodsShop/app/src/main/res/layout/click_goods_detail.xml" value="0.13802083333333334" />
         <entry key="..\:/Users/jjjjy/AndroidStudioProjects/GoodsShop/app/src/main/res/layout/click_goods_detail_img_slider.xml" value="0.12335359675785208" />
         <entry key="..\:/Users/jjjjy/AndroidStudioProjects/GoodsShop/app/src/main/res/layout/click_goods_img_slider.xml" value="0.12335359675785208" />
-        <entry key="..\:/Users/jjjjy/AndroidStudioProjects/GoodsShop/app/src/main/res/layout/find_password.xml" value="0.12335359675785208" />
+        <entry key="..\:/Users/jjjjy/AndroidStudioProjects/GoodsShop/app/src/main/res/layout/filter.xml" value="0.12335359675785208" />
+        <entry key="..\:/Users/jjjjy/AndroidStudioProjects/GoodsShop/app/src/main/res/layout/find_password.xml" value="0.176" />
         <entry key="..\:/Users/jjjjy/AndroidStudioProjects/GoodsShop/app/src/main/res/layout/fragment_category.xml" value="0.1" />
         <entry key="..\:/Users/jjjjy/AndroidStudioProjects/GoodsShop/app/src/main/res/layout/fragment_chatting.xml" value="0.264" />
         <entry key="..\:/Users/jjjjy/AndroidStudioProjects/GoodsShop/app/src/main/res/layout/fragment_home.xml" value="0.176" />
@@ -42,6 +46,7 @@
         <entry key="..\:/Users/jjjjy/AndroidStudioProjects/GoodsShop/app/src/main/res/layout/join.xml" value="0.2" />
         <entry key="..\:/Users/jjjjy/AndroidStudioProjects/GoodsShop/app/src/main/res/layout/join_only_shop.xml" value="0.176" />
         <entry key="..\:/Users/jjjjy/AndroidStudioProjects/GoodsShop/app/src/main/res/layout/notification.xml" value="0.1" />
+        <entry key="..\:/Users/jjjjy/AndroidStudioProjects/GoodsShop/app/src/main/res/layout/purchase.xml" value="0.12335359675785208" />
         <entry key="..\:/Users/jjjjy/AndroidStudioProjects/GoodsShop/app/src/main/res/layout/review_detail.xml" value="0.2" />
         <entry key="..\:/Users/jjjjy/AndroidStudioProjects/GoodsShop/app/src/main/res/layout/reviews.xml" value="0.1" />
         <entry key="..\:/Users/jjjjy/AndroidStudioProjects/GoodsShop/app/src/main/res/layout/reviews_listview.xml" value="0.12335359675785208" />

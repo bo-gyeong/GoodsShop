@@ -133,14 +133,7 @@ public class MypageLogin extends Fragment {
             }
         });  //회원가입 버튼 클릭 시
 
-
-        //이메일입력 로그인하기기
-        /*mFirebaseAuth = FirebaseAuth.getInstance();
-        mDatabaseRef = FirebaseDatabase.getInstance().getReference();
-
-        mEtEmail = v.findViewById(R.id.emailEditText);
-        mEtPwd = v.findViewById(R.id.pwEditText);*/
-
+        // 이메일로 입력 로그인하기
         btn_login = v.findViewById(R.id.loginEmailBtn);
         btn_login.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -153,33 +146,6 @@ public class MypageLogin extends Fragment {
                         .setDefaultProvider(new AuthUI.IdpConfig.EmailBuilder().build()).setIsSmartLockEnabled(false)
                         .build(), RC_SIGN_IN);
             }
-
-        /*btn_login.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                //로그인 요청
-                String strEmail = mEtEmail.getText().toString();
-                String strPwd = mEtPwd.getText().toString();
-
-                mFirebaseAuth.signInWithEmailAndPassword(strEmail,strPwd).addOnCompleteListener(getActivity(), new OnCompleteListener<AuthResult>() {
-                    @Override
-                    public void onComplete(@NonNull Task<AuthResult> task) {
-                        if(task.isSuccessful()) {
-                            //로그인 성공
-                            selectedProviders.clear();
-                            selectedProviders.add(new AuthUI.IdpConfig.EmailBuilder().build());
-
-                            startActivityForResult(AuthUI.getInstance().createSignInIntentBuilder()
-                                    .setAvailableProviders(selectedProviders)
-                                    .setDefaultProvider(new AuthUI.IdpConfig.EmailBuilder().build()).setIsSmartLockEnabled(true)
-                                    .build(), RC_SIGN_IN);
-                        }
-                        else{
-                            Toast.makeText(getActivity(),"로그인 실패",Toast.LENGTH_SHORT).show();
-                        }
-                    }
-                });
-            }*/
         });
 
         return v;
@@ -189,40 +155,6 @@ public class MypageLogin extends Fragment {
     DatabaseReference databaseReference = FirebaseDatabase.getInstance().getReference();
     // 로그인 되어있는지 확인
     public boolean chkUser(){
-//        ((MainActivity) MainActivity.context).checkLogin();  //싱글톤 패턴: mainActivity 재사용하여 메모리 낭비 방지
-//
-//        String getUid = sharedPreferences.getString("getUid", null); //MainActivity.sharedUid();//
-//
-//        new Handler().postDelayed(new Runnable() {
-//            @Override
-//            public void run() {
-//                if(getUid != null) {
-//                    isUser = true;
-//                }
-//            }
-//        }, 500);  //500ms로 해놨는데 사용자 늘어났을 때 화면전환 제대로 안되면 시간 늘려보기. 그래도 안되면 스레드? 밑에꺼 시간>이 시간
-
-
-
-
-
-
-
-
-
-//        if(user != null) {
-//            ((MainActivity) MainActivity.context).checkLogin();
-//            String uid = user.getUid();
-//            sharedPreferences.edit().putString("getUid", uid).apply();
-//            isUser = true;
-//            System.out.println("!!!!!!!!!!!!???????????????????");
-//        }
-
-
-
-
-
-
         FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
 
         if(user != null) {
