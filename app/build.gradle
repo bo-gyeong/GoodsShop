@@ -1,6 +1,9 @@
 apply plugin: 'com.android.application'
 apply plugin: 'com.google.gms.google-services'
 
+Properties properties = new Properties()
+properties.load(project.rootProject.file('local.properties').newDataInputStream())
+
 android {
     compileSdkVersion 29
     buildToolsVersion "30.0.2"
@@ -14,6 +17,12 @@ android {
         multiDexEnabled true
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+        buildConfigField "String", "TWITTER_CONSUMER_KEY", properties['twitter_consumer_key']
+        buildConfigField "String", "TWITTER_CONSUMER_SECRET", properties['twitter_consumer_secret']
+        buildConfigField "String", "FACEBOOK_APPLICATION_ID", properties['facebook_application_id']
+        buildConfigField "String", "FACEBOOL_LOGIN_PROTOCOL_SCHEME", properties['facebook_login_protocol_scheme']
+
     }
 
     buildTypes {

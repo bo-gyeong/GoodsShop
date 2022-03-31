@@ -1,12 +1,4 @@
 <resources>
-    <!-- 트위터 연동 -->
-    <string name="twitter_consumer_key" translatable="false">1lFMaHIWKO4NuU2dmC1jfKQA8</string>
-    <string name="twitter_consumer_secret" translatable="false">RPAZyifVZPKvR5TQfF7gLtrvshS0XH5mSkB8Sv4EM57VcjxiHY</string>
-    <!-- 페이스북 연동 -->
-    <string name="facebook_application_id">157519363183762</string>
-    <string name="facebook_login_protocol_scheme">fb157519363183762</string>
-
-
     <!-- 하단바 이름 -->
     <string name="app_name">굿즈#</string>
     <string name="title_registration">상품등록</string>
