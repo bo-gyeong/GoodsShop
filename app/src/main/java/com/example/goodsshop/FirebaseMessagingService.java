@@ -5,7 +5,6 @@ import android.app.NotificationManager;
 import android.app.PendingIntent;
 import android.content.Context;
 import android.content.Intent;
-import android.content.SharedPreferences;
 import android.media.RingtoneManager;
 import android.net.Uri;
 import android.os.AsyncTask;
@@ -86,8 +85,7 @@ class SendNotification {
 
                     RequestBody body = RequestBody.create(JSON, json.toString());
                     Request request = new Request.Builder()
-                            .header("Authorization", "key="
-                                    + "AAAA40o0CIM:APA91bFgy3EcJ8HMqtV8lekFhJofuP9Dsppga4dqjT1wqSeSNxJswwQxj3hNeWiPjC0HbZMenh3BcDwORtqqSa_s8CQnU6TfbB8fibBJvaOKDUf-sNWb2uvSxOI3ALGRiLScHU4LEo4w")
+                            .header("Authorization", "key=" + BuildConfig.FCM_KEY)
                             .url("https://fcm.googleapis.com/fcm/send")
                             .post(body)
                             .build();
